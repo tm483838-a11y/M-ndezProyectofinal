@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriPlanes - Inicio</title>
+  <!-- CSS de Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">NutriPlanes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="celiacos.html">Plan Celíacos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="peso.html">Plan Perder Peso</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    
+    <!-- Hero / Presentación General -->
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <h1 class="display-5 fw-bold text-success">Planes de Alimentación a tu Medida</h1>
+        <p class="lead fw-bold text-dark">Mejorá tu calidad de vida con planes nutricionales diseñados especialmente para tus necesidades alimentarias.</p>
+      </div>
+      <div class="col-md-6 mt-3 mt-md-0">
+        <img src="imagenes/img.plan.avif" alt="Alimentación Saludable" class="img-fluid rounded shadow">
+      </div>
+    </section>
+
+    <!-- Sección Sobre Mí / Presentación Profesional -->
+    <section id="sobre-mi" class="bg-success-subtle p-4 p-md-5 rounded shadow-sm mb-5">
+      <div class="row align-items-center">
+        <div class="col-md-7 mb-3 mb-md-0">
+          <span class="badge bg-success mb-2">Profesional a cargo</span>
+          <h2 class="h3 fw-bold text-success-emphasis">Tamara Soledad Méndez</h2>
+          <p class="fw-bold text-dark mb-3">Técnica en Nutrición</p>
+          <p class="text-dark mb-0">
+            ¡Hola! Soy Tamy. Acompaño a las personas a mejorar su calidad de vida y su relación con la comida mediante planes de alimentación reales, sostenibles y adaptados a las necesidades específicas de cada paciente.
+          </p>
+        </div>
+        <div class="col-md-5 border-start-md ps-md-4">
+          <h5 class="fw-bold text-success-emphasis mb-3">Contacto Directo</h5>
+          <ul class="list-unstyled text-dark mb-0">
+            <li class="mb-2"><strong>Email:</strong> <a href="mailto:tm483838@gmail.com" class="text-decoration-underline text-dark fw-bold">tm483838@gmail.com</a></li>
+            <li class="mb-2"><strong>WhatsApp:</strong> +54 1130160567</li>
+            <li class="mb-2"><strong>Atención:</strong> Consultas Online y Presenciales</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+<!-- Tarjetas de Acceso a los Planes -->
+    <section class="mb-5">
+      <h2 class="h4 text-success fw-bold mb-4">Nuestros Planes Específicos</h2>
+      
+      <div class="row g-4">
+        <!-- Card Plan Celíacos -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm border border-success-subtle bg-white">
+            <div class="card-body d-flex flex-column p-4">
+              <span class="badge bg-warning text-dark align-self-start mb-2">Sin TACC</span>
+              <h3 class="h5 card-title fw-bold text-dark">Plan para Celíacos</h3>
+              <p class="card-text text-dark fw-medium mb-4">
+                Recetas seguras, libres de gluten y listas de compras para organizar tu semana sin complicaciones.
+              </p>
+              <a href="celiacos.html" class="btn btn-success mt-auto fw-semibold">Ver Plan Celíaco</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Plan Pérdida de Peso -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm border border-success-subtle bg-white">
+            <div class="card-body d-flex flex-column p-4">
+              <span class="badge bg-info text-dark align-self-start mb-2">Sostenible</span>
+              <h3 class="h5 card-title fw-bold text-dark">Plan Control de Peso</h3>
+              <p class="card-text text-dark fw-medium mb-4">
+                Menús equilibrados, saciantes y sin dietas restrictivas para alcanzar tu peso objetivo.
+              </p>
+              <a href="peso.html" class="btn btn-success mt-auto fw-semibold">Ver Plan Pérdida de Peso</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">&copy; 2026 NutriPlanes</p>
+  </footer>
+
+  <!-- JS de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
